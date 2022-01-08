@@ -69,6 +69,7 @@ body
     max-width: 80%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 125px;
   }
   p {
     font-size: 32px;
@@ -199,9 +200,49 @@ header{
     cursor: pointer;
     margin-top: -25px!important;
   }
+
+.mainBox{
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  text-align: center;
+}
+.mainBox h1{
+  color: #89c6cd;
+}
+.mainBox .bn60 {
+  background-color: #190c8d;
+  color: #ffffff;
+  font-weight: 600;
+  position: relative;
+  outline: none;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  height: 55px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1024px) {
+  .carousel{
+    margin-top: 220px;
+  }
+}
   @media screen and (max-width: 768px) {
   footer .box{
       width: 100%;
       margin-bottom: 10px;
   }
+  .carousel{
+    margin-top: 200px;
+  }
+}
+@media screen and (max-width: 360px) {
+.carousel{
+  margin-top: 550px;
+}
 }
